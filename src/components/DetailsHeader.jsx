@@ -1,5 +1,3 @@
-const DetailsHeader = () => (
-  <div>DetailsHeader</div>
-);
+const DetailsHeader = () => <div>DetailsHeader</div>
 
-export default DetailsHeader;
+export default DetailsHeader
