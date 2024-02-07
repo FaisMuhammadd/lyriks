@@ -1,5 +1,5 @@
-import React from 'react';
+import React from "react"
 
-const CountryTracks = () => <div>CountryTracks</div>;
+const CountryTracks = () => <div>CountryTracks</div>
 
-export default CountryTracks;
+export default CountryTracks
