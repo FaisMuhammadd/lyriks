@@ -1,136 +1,108 @@
-# Project Lyrics
+<div align="center">
+  <br />
+    <a href="https://lyriks-kappa.vercel.app" target="_blank">
+      <img src="https://github.com/pandawaa/price-stash/blob/main/public/assets/images/home-page-pricestash.png" alt="Project Banner">
+    </a>
+  <br />
 
-Develop an elegant React.js Music Application. 
+  <div>
+   <img src="https://img.shields.io/badge/-Web_Scraping-black?style=for-the-badge&logoColor=white&color=FF0000" alt="webscraping" />
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextjs" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="mongodb" />
+  </div>
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+  <h3 align="center">A Ecom Price Tracking Application</h3>
 
-# Contributing
+</div>
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+## 📋 <a name="table">Table of Contents</a>
 
+1. ⚙️ [Tech Stack](#tech-stack)
+2. 🔋 [Features](#features)
+3. 🤸 [Quick Start](#quick-start)
+4. 🔗 [Links](#links)
 
-## System Requirements
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-To get started with development, you need to install few tools
+- Next.js
+- Bright Data
+- Cheerio
+- Nodemailer
+- MongoDB
+- Headless UI
+- Tailwind CSS
 
-1. git 
-   
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+## <a name="features">🔋 Features</a>
 
-   To check your version of git, run:
+👉 **Header with Carousel**: Visually appealing header with a carousel showcasing key features and benefits
 
-   ```shell
-    git --version
-   ```
+👉 **Product Scraping**: A search bar allowing users to input Amazon product links for scraping.
 
-2. node 
-   
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+👉 **Scraped Projects**: Displays the details of products scraped so far, offering insights into tracked items.
 
-   To check your version of node, run:
+👉 **Scraped Product Details**: Showcase the product image, title, pricing, details, and other relevant information scraped from the original website
 
-   ```shell
-    node --version
-   ```
+👉 **Track Option**: Modal for users to provide email addresses and opt-in for tracking.
 
-3. npm
-  
-   `npm` version 5.6.1 or higher. You will have it after you install node.
+👉 **Email Notifications**: Send emails product alert emails for various scenarios, e.g., back in stock alerts or lowest price notifications.
 
-   To check your version of npm, run:
+👉 **Automated Cron Jobs**: Utilize cron jobs to automate periodic scraping, ensuring data is up-to-date.
 
-   ```shell
-    npm --version
-   ```
+and many more, including code architecture and reusability
 
-## Setup
+## <a name="quick-start">🤸 Quick Start</a>
 
-To set up a development environment, please follow these steps:
+Follow these steps to set up the project locally on your machine.
 
-1. Clone the repo
+**Prerequisites**
 
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
-   ```
+Make sure you have the following installed on your machine:
 
-2. Change directory to the project directory
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-    ```shell
-    cd project1_team4_repository
-    ```
+**Cloning the Repository**
 
-3. Install the dependencies
-   
-    ```shell
-     npm install
-    ```
+```bash
+git clone https://github.com/pandawaa/price-stash.git
+cd price-stash
+```
 
-    If you get an error, please check the console for more information.
+**Installation**
 
-    If you don't get an error, you are ready to start development.
+Install the project dependencies using npm:
 
-4. Run the app
-   
-    ```shell
-    npm run dev
-    ```
+```bash
+npm install
+```
 
-    Project will be running in the browser.
+**Set Up Environment Variables**
 
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create a new file named `.env` in the root of your project and add the following content:
 
-## Issues
+```env
+#SCRAPER
+BRIGHT_DATA_USERNAME=
+BRIGHT_DATA_PASSWORD=
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+#DB
+MONGODB_URI=
 
-Please try to create bug reports that are:
+#OUTLOOK
+EMAIL_USER=
+EMAIL_PASS=
+```
 
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
+Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up on these specific websites from [BrightData](https://brightdata.com/), [MongoDB](https://www.mongodb.com/), and [Node Mailer](https://nodemailer.com/)
 
+**Running the Project**
 
-## Pull Request
+```bash
+npm run dev
+```
 
-There are 2 main work flows when dealing with pull requests:
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
-
-Here we are going to focus on 2. Creating a Topical Branch:
-
-
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
-
-   ```bash
-    git pull origin main
-   ```
-
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
-
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
-
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
-
-3. To create a pull request, you must have changes committed to your new branch.
-
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
-
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
-
-6. Follow the template and fill in the proper information for the pull request.
-
-7. Click on the `Submit` button.
-
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
-
-#
+Project Website can be found in Link [here](https://price-stash.vercel.app/)
