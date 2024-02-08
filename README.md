@@ -35,21 +35,21 @@
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Header with Carousel**: Visually appealing header with a carousel showcasing key features and benefits
+👉 **Discover**: Lyrics transforms music discovery into an effortless and enjoyable experience, continuously introducing listeners to new sounds and expanding their musical horizons.
 
-👉 **Product Scraping**: A search bar allowing users to input Amazon product links for scraping.
+👉 **Around You**: Feature enhances your music discovery experience by offering localized recommendations based on your geographical location..
 
-👉 **Scraped Projects**: Displays the details of products scraped so far, offering insights into tracked items.
+👉 **Top Artist**: Top Artist feature showcases the most popular and influential musicians across the platform.
 
-👉 **Scraped Product Details**: Showcase the product image, title, pricing, details, and other relevant information scraped from the original website
+👉 **Top Chart**: Feature offers a real-time snapshot of the most popular songs across various genres and regions.
 
-👉 **Track Option**: Modal for users to provide email addresses and opt-in for tracking.
+👉 **Song Details**: Feature provides listeners with comprehensive information about the tracks they're enjoying include Lyrics.
 
-👉 **Email Notifications**: Send emails product alert emails for various scenarios, e.g., back in stock alerts or lowest price notifications.
+👉 **Artist Details**: Feature provides a comprehensive overview of musicians, bands, and performers.
 
-👉 **Automated Cron Jobs**: Utilize cron jobs to automate periodic scraping, ensuring data is up-to-date.
+👉 **Search Music**: Users can easily find their favorite songs, albums, artists, and playlists.
 
-and many more, including code architecture and reusability
+and many more
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -66,8 +66,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/pandawaa/price-stash.git
-cd price-stash
+git https://github.com/pandawaa/lyriks.git
+cd lyriks
 ```
 
 **Installation**
@@ -82,27 +82,16 @@ npm install
 
 Create a new file named `.env` in the root of your project and add the following content:
 
-```env
-#SCRAPER
-BRIGHT_DATA_USERNAME=
-BRIGHT_DATA_PASSWORD=
-
-#DB
-MONGODB_URI=
-
-#OUTLOOK
-EMAIL_USER=
-EMAIL_PASS=
-```
-
-Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up on these specific websites from [BrightData](https://brightdata.com/), [MongoDB](https://www.mongodb.com/), and [Node Mailer](https://nodemailer.com/)
+````env
+VITE_SHAZAM_CORE_RAPID_API_KEY=
+VITE_GEO_API_KEY=
 
 **Running the Project**
 
 ```bash
 npm run dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-Project Website can be found in Link [here](https://price-stash.vercel.app/)
+Project Website can be found in Link [here](https://lyriks-kappa.vercel.app)
