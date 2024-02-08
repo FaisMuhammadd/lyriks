@@ -82,15 +82,16 @@ npm install
 
 Create a new file named `.env` in the root of your project and add the following content:
 
-````env
+```env
 VITE_SHAZAM_CORE_RAPID_API_KEY=
 VITE_GEO_API_KEY=
+```
 
 **Running the Project**
 
 ```bash
 npm run dev
-````
+```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
