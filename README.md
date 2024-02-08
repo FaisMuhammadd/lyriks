@@ -1,18 +1,17 @@
 <div align="center">
   <br />
     <a href="https://lyriks-kappa.vercel.app" target="_blank">
-      <img src="https://github.com/pandawaa/price-stash/blob/main/public/assets/images/home-page-pricestash.png" alt="Project Banner">
+      <img src="https://github.com/pandawaa/lyriks/blob/main/src/assets/home-page-lyriks.png" alt="Project Banner">
     </a>
   <br />
 
   <div>
-   <img src="https://img.shields.io/badge/-Web_Scraping-black?style=for-the-badge&logoColor=white&color=FF0000" alt="webscraping" />
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextjs" />
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="mongodb" />
+    <img src="https://img.shields.io/badge/-Axios-black?style=for-the-badge&logoColor=white&logo=axios&color=06B6D4" alt="axios" />
   </div>
 
-  <h3 align="center">A Ecom Price Tracking Application</h3>
+  <h3 align="center">Lyriks Music Web App</h3>
 
 </div>
 
@@ -25,13 +24,12 @@
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- Bright Data
-- Cheerio
-- Nodemailer
-- MongoDB
-- Headless UI
+- React.js
+- Axios
+- Redux
+- Rapid Api
 - Tailwind CSS
+- Swiper
 
 ## <a name="features">🔋 Features</a>
 
